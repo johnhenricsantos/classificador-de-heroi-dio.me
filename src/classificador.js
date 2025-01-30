@@ -17,8 +17,8 @@ if ( xp < 1000) {
     nivel = "Ascendente"
 }else if (xp >= 9001 && xp <= 10000){
     nivel = "Imortal"
-}else (xp <= 10001){
+}else (xp <= 10001)
     nivel = "Raditante"
-}
+
      
 console.log("O Herói de nome " + nomePersonagem + " está no nível de " + nivel)
